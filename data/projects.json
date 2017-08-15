@@ -38,32 +38,32 @@
      "description": "A robust website for a fast casual fusion restaurant with a  of the Australian health insurer's website to provide an enhanced user experience.",
      "clientDescription":"Ahm (Australian Health Management) is a subsidiary of one of Australia’s largest health insurers. The company now handles health cover for over 370,000 people.",
      "cta": {
-       "link": "http://afrodeli.com",
-       "text": "View website"
+       "link": "http://www. afrodeli.com",
+       "text": "View Website"
      },
      "slug": "afrodeli",
      "title": "Afro Deli"
    },
     {
-      "className": "ahm",
+      "className": "nekima",
       "description": "A complete overhaul of the Australian health insurer's website to provide an enhanced user experience.",
       "clientDescription":"Ahm (Australian Health Management) is a subsidiary of one of Australia’s largest health insurers. The company now handles health cover for over 370,000 people.",
       "cta": {
-        "link": "https://ahm.com.au",
-        "text": "View website"
+        "link": "http://www.minneapolisfornekima.com/",
+        "text": "View Website"
       },
-      "slug": "ahm",
-      "title": "Ahm"
+      "slug": "nekima",
+      "title": "Minneapolis for Nekima"
     },
     {
-      "className": "mrRed",
+      "className": "abdiwarsame",
       "description": "An iOS game built using the Unity 3D game engine. A personal project to challenge and inspire oneself.",
       "cta": {
-        "link": "https://itunes.apple.com/app/id1165442603",
-        "text": "Download on App Store"
+        "link": "http://www.votewarsame.com",
+        "text": "View Website"
       },
-      "slug": "mr-red",
-      "title": "Mr. Red"
+      "slug": "abdiwarsame",
+      "title": "Abdi Warsame for Ward 6"
     }
   ]
 }

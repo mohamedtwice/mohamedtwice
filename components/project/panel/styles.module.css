@@ -35,24 +35,24 @@
   padding-right: 0;
 }
 
-.mrRed {
+.abdiwarsame {
   composes: panel;
-  composes: mrRed from "../themes.module.css";
+  composes: abdiwarsame from "../themes.module.css";
 }
 
-.mrRed .inner {
-  background-image: url('../img/mr-red.png');
+.abdiwarsame .inner {
+  background-image: url('../img/abdiwarsame.png');
   background-position-x: 15%;
   background-size: auto 50%;
 }
 
-.ahm {
+.nekima {
   composes: panel;
-  composes: ahm from "../themes.module.css";
+  composes: nekima from "../themes.module.css";
 }
 
-.ahm .inner {
-  background-image: url('../img/ahm.png');
+.nekima .inner {
+  background-image: url('../img/nekima.png');
   background-position-x: 80%;
   background-size: auto 50%;
 }
