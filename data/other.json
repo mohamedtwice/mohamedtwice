@@ -1,0 +1,33 @@
+{
+ "className": "pabspacks",
+ "description": "A full-stack application for Pab's Packs to easily track their inventory and keep track of events.",
+ "clientDescription":"Pab's Packs is a non-profit organization created by two teenagers (Abbie and Pia) after they were hospitalized in their youth.",
+ "cta": {
+   "link": "#",
+   "text": "View App"
+ },
+ "slug": "pabspacks",
+ "title": "Pab's Packs Application"
+},
+{
+ "className": "caterapp",
+ "description": "A full-stack application for small restaurants to keep track of and manage catering orders.",
+ "clientDescription":" CaterAPP is designed for small independent restaurants who want to manage their catering business smarter and more efficiently.",
+ "cta": {
+   "link": "https://caterapp.herokuapp.com/",
+   "text": "View App"
+ },
+ "slug": "caterapp",
+ "title": "CaterAPP"
+},
+{
+ "className": "afrodeli",
+ "description": "A robust website for a fast casual fusion restaurant with a  of the Australian health insurer's website to provide an enhanced user experience.",
+ "clientDescription":"Ahm (Australian Health Management) is a subsidiary of one of Australia’s largest health insurers. The company now handles health cover for over 370,000 people.",
+ "cta": {
+   "link": "http://afrodeli.com",
+   "text": "View website"
+ },
+ "slug": "afrodeli",
+ "title": "Afro Deli"
+},
