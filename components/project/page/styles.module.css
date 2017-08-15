@@ -1,0 +1,43 @@
+@import '../../../assets/css/variables.css';
+
+.panel {
+  height: 33vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page {
+  min-height: calc(100vh - var(--headerHeight));
+  padding-top: 10vh;
+}
+
+.abdiwarsame {
+  composes: abdiwarsame from "../themes.module.css";
+  composes: page;
+}
+
+.nekima {
+  composes: nekima from "../themes.module.css";
+  composes: page;
+}
+
+.afrodeli {
+  composes: afrodeli from "../themes.module.css";
+  composes: page;
+}
+
+.pabspacks {
+  composes: pabspacks from "../themes.module.css";
+  composes: page;
+}
+
+.omegaexchange {
+  composes: omegaexchange from "../themes.module.css";
+  composes: page;
+}
+
+.caterapp {
+  composes: caterapp from "../themes.module.css";
+  composes: page;
+}
