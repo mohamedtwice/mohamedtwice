@@ -34,16 +34,16 @@
       "title": "Omega Exchange"
     },
     {
-      "className": "lifeWithBird",
-      "description": "A minimal and clean e-commerce website built for the contemporary clothing brand based in Melbourne.",
-      "clientDescription":"Life with Bird was established in 2002 with a desire to create high quality, beautifully crafted contemporary clothing. The company continues to expand its global following.",
-      "cta": {
-        "link": "https://lifewithbird.com",
-        "text": "View website"
-      },
-      "slug": "life-with-bird",
-      "title": "Life with Bird"
-    },
+     "className": "afrodeli",
+     "description": "A robust website for a fast casual fusion restaurant with a  of the Australian health insurer's website to provide an enhanced user experience.",
+     "clientDescription":"Ahm (Australian Health Management) is a subsidiary of one of Australia’s largest health insurers. The company now handles health cover for over 370,000 people.",
+     "cta": {
+       "link": "http://afrodeli.com",
+       "text": "View website"
+     },
+     "slug": "afrodeli",
+     "title": "Afro Deli"
+   },
     {
       "className": "ahm",
       "description": "A complete overhaul of the Australian health insurer's website to provide an enhanced user experience.",

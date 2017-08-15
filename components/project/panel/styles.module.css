@@ -57,13 +57,13 @@
   background-size: auto 50%;
 }
 
-.lifeWithBird {
+.afrodeli {
   composes: panel;
-  composes: lifeWithBird from "../themes.module.css";
+  composes: afrodeli from "../themes.module.css";
 }
 
-.lifeWithBird .inner {
-  background-image: url('../img/life-with-bird.jpg');
+.afrodeli .inner {
+  background-image: url('../img/afrodeli.png');
   background-position-x: 13%;
   background-size: auto 95%;
   background-position-y: bottom;

@@ -26,15 +26,16 @@
   background-color: #000;
 }
 
-.lifeWithBird {
-  composes: light;
-  background-color: #f4f5fa;
+.afrodeli {
+  composes: dark;
+  background-color: #eb501e;
 }
 
-.chadstone {
+
+/*.chadstone {
   composes: dark;
   background-color: #FF5722;
-}
+}*/
 
 .pabspacks {
   composes: light;
@@ -42,6 +43,11 @@
 }
 
 .caterapp {
-  composes: dark;
-  background-color: #7E57C2;
+  composes: light;
+  background-color: #fae596;
+}
+
+.omegaexchange {
+  composes: light;
+  background-color: #B0BEC5;
 }

@@ -8,7 +8,7 @@ import OutboundLink from 'components/outbound-link';
 import Wrapper from 'components/wrapper';
 import { ProjectDescription, ProjectIntro, ProjectPage } from 'components/project';
 
-import coverImage from 'components/project/img/life-with-bird.jpg';
+import coverImage from 'components/project/img/afrodeli.png';
 
 const images = [
   {
@@ -48,8 +48,8 @@ const mobileImages = [
   },
 ];
 
-const LifeWithBird = () => {
-  const project = projects.find(_project => _project.slug === 'life-with-bird');
+const AfroDeli = () => {
+  const project = projects.find(_project => _project.slug === 'afrodeli');
 
   const image = (
     <img src={coverImage} alt="Cover" />
@@ -80,4 +80,4 @@ const LifeWithBird = () => {
   );
 };
 
-export default LifeWithBird;
+export default AfroDeli;
