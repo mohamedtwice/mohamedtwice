@@ -14,7 +14,7 @@ const Index = () => (
     <Fullscreen className={styles.intro} firstItem>
       <Wrapper>
         <h1>
-          Hello. I’m Mohamed H. Mohamed.
+          Hello. I’m Mohamed.
           <br />
           <br />
           I’m a freelance developer.
