@@ -13,23 +13,23 @@ import coverImage from 'components/project/img/caterapp.jpg';
 
 const images = [
   {
-    src: require('./img/pabspacks1.png'),
+    src: require('./img/caterapp1.png'),
     description: 'CaterAPP Login Page',
   },
   {
-    src: require('./img/pabspacks2.png'),
+    src: require('./img/caterapp2.png'),
     description: 'CaterAPP Dashboard Page',
   },
   {
-    src: require('./img/pabspacks3.png'),
+    src: require('./img/caterapp3.png'),
     description: 'CaterAPP Inventory Page',
   },
   {
-    src: require('./img/pabspacks4.png'),
+    src: require('./img/caterapp4.png'),
     description: 'CaterAPP Events Page',
   },
   {
-    src: require('./img/pabspacks5.png'),
+    src: require('./img/caterapp5.png'),
     description: 'CaterAPP Admin Page',
   },
 ];
@@ -73,13 +73,7 @@ const CaterAPP = () => {
   return (
     <ProjectPage project={project}>
       <ProjectIntro project={project} media={image} />
-      <ProjectDescription media={iphone}>
-        <h3>Project</h3>
-        <p>Life with Bird gave us with the challenge of rebuilding their Shopify theme. Part of it&apos;s remit was to improve the user experience and include a much cleaner UI that matched their brand and achieved   more conversions. The current code and deployment solution also needed revisiting to be scalable and flexible.</p>
-
-        <h3>Role</h3>
-        <p>Whilst working at <OutboundLink to="http://inlight.com.au">Inlight</OutboundLink>, myself and 1 other developer worked together closely with the client to provide a solution they sought after. After looking at the current codebase, we realised that we needed to rebuild the existing solution. I was responsible for the majority of the delivery.</p>
-      </ProjectDescription>
+      
       <Wrapper>
         <Macbook>
           <Carousel images={images} />

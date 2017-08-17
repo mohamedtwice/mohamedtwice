@@ -5,7 +5,7 @@
      "description": "A full-stack application for Pab's Packs to easily track their inventory and keep track of events.",
      "clientDescription":"Pab's Packs is a non-profit organization created by two teenagers (Abbie and Pia) after they were hospitalized in their youth.",
      "cta": {
-       "link": "#",
+       "link": "https://sheltered-coast-35476.herokuapp.com/",
        "text": "View App"
      },
      "slug": "pabspacks",
@@ -27,7 +27,7 @@
       "description": "A full-stack application for Pab's Packs to easily track their inventory and keep track of events.",
       "clientDescription":"Pab's Packs is a non-profit organization created by two teenagers (Abbie and Pia) after they were hospitalized in their youth.",
       "cta": {
-        "link": "#",
+        "link": "https://omegaexchange.herokuapp.com/",
         "text": "View Game"
       },
       "slug": "omegaexchange",
@@ -35,8 +35,8 @@
     },
     {
      "className": "afrodeli",
-     "description": "A robust website for a fast casual fusion restaurant with a  of the Australian health insurer's website to provide an enhanced user experience.",
-     "clientDescription":"Ahm (Australian Health Management) is a subsidiary of one of Australia’s largest health insurers. The company now handles health cover for over 370,000 people.",
+     "description": "A robust website for a fast casual fusion restaurant and social enterprise.",
+     "clientDescription":"Afro Deli is a social venture that attempts to weave together business with community and culture. They are also a fast, friendly, and affordable place for anything from coffee and tea, to lunch, dinner, and dessert. ",
      "cta": {
        "link": "http://www. afrodeli.com",
        "text": "View Website"
@@ -46,8 +46,8 @@
    },
     {
       "className": "nekima",
-      "description": "A complete overhaul of the Australian health insurer's website to provide an enhanced user experience.",
-      "clientDescription":"Ahm (Australian Health Management) is a subsidiary of one of Australia’s largest health insurers. The company now handles health cover for over 370,000 people.",
+      "description": "A complete organizing website to support the mayoral run of an amazing change agent.",
+      "clientDescription":"A complete organizing website for Rev. Dr. Nekima Levy-Pounds, a civil rights attorney, freedom fighter, legal scholar, blogger, and nationally recognized expert on issues at the intersections of race, public policy, economic justice, public education, juvenile justice, and the criminal justice system.",
       "cta": {
         "link": "http://www.minneapolisfornekima.com/",
         "text": "View Website"
@@ -58,6 +58,7 @@
     {
       "className": "abdiwarsame",
       "description": "An iOS game built using the Unity 3D game engine. A personal project to challenge and inspire oneself.",
+      "clientDescription":"After making history in 2013 as the first Somali American Council Member, CM Warsame looked to revamp his original site to a new, modern look.",
       "cta": {
         "link": "http://www.votewarsame.com",
         "text": "View Website"

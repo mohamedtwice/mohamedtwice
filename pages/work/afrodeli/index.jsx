@@ -12,24 +12,8 @@ import coverImage from 'components/project/img/afrodeli.png';
 
 const images = [
   {
-    src: require('./img/collection-listing.jpg'),
+    src: require('./img/bsmg-afrodeli.png'),
     description: 'Life with Bird collection listing',
-  },
-  {
-    src: require('./img/home.jpg'),
-    description: 'Life with Bird home',
-  },
-  {
-    src: require('./img/product-listing.jpg'),
-    description: 'Life with Bird product listing',
-  },
-  {
-    src: require('./img/product.jpg'),
-    description: 'Life with Bird product',
-  },
-  {
-    src: require('./img/store-listing.jpg'),
-    description: 'Life with Bird store listing',
   },
 ];
 
@@ -64,13 +48,7 @@ const AfroDeli = () => {
   return (
     <ProjectPage project={project}>
       <ProjectIntro project={project} media={image} />
-      <ProjectDescription media={iphone}>
-        <h3>Project</h3>
-        <p>Life with Bird gave us with the challenge of rebuilding their Shopify theme. Part of it&apos;s remit was to improve the user experience and include a much cleaner UI that matched their brand and achieved   more conversions. The current code and deployment solution also needed revisiting to be scalable and flexible.</p>
 
-        <h3>Role</h3>
-        <p>Whilst working at <OutboundLink to="http://inlight.com.au">Inlight</OutboundLink>, myself and 1 other developer worked together closely with the client to provide a solution they sought after. After looking at the current codebase, we realised that we needed to rebuild the existing solution. I was responsible for the majority of the delivery.</p>
-      </ProjectDescription>
       <Wrapper>
         <Macbook>
           <Carousel images={images} />
