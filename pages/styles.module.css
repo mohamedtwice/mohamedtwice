@@ -1,18 +1,31 @@
 @import '../assets/css/variables.css';
-
 .page {
   padding-top: var(--headerHeight);
   min-height: 100vh;
 }
 
 .intro {
-  background: var(--colorBlack);
+  /*background: var(--colorBlack);*/
   color: var(--colorWhite);
-
+  /*background: url('pages/img/homeimg.png');*/
+  background: url('pages/img/homeimg.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .intro h1 {
-  font-size: 2.75rem;
+    font-size: 2.75rem;
+    margin-left: 50%;
+    font-weight: 800;
+    color: #fff;
+        text-shadow: 5px 2px 0px #444;
+    }
+
+.introhello {
+  background: #000;
+  padding: 15px;
 }
 
 .link {
@@ -22,7 +35,8 @@
 @media (--small) {
   .intro h1 {
     font-size: 1.7142rem;
-  }
+    margin-left: 0%;
+}
   .link {
     border-width: 2px;
   }

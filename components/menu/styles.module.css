@@ -7,6 +7,7 @@
   top: 0;
   left: 0;
   z-index: var(--zIndexMenu);
+  padding: 0 40px;
 }
 
 .disable {
@@ -26,7 +27,7 @@
 
 @media (--small) {
   .item {
-    font-size: 2.2857rem;
+    font-size: 2.9857rem;
   }
   .active {
     border-width: 2px;

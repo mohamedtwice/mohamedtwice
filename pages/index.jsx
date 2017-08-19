@@ -14,13 +14,13 @@ const Index = () => (
     <Fullscreen className={styles.intro} firstItem>
       <Wrapper>
         <h1>
-          Hello. I’m Mohamed.
+          <span class="styles.introhello">Hello. I’m Mohamed.</span>
           <br />
           <br />
           I’m a freelance developer.
           <br />
           <br />
-          Check out my <Link className={styles.link} to={prefixLink('/work/')}>work</Link>.
+          <b>Check out my <Link className={styles.link} to={prefixLink('/work/')}>work</Link>.</b>
         </h1>
       </Wrapper>
     </Fullscreen>
