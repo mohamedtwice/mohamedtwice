@@ -24,8 +24,8 @@
     },
      {
       "className": "omegaexchange",
-      "description": "A full-stack application for Pab's Packs to easily track their inventory and keep track of events.",
-      "clientDescription":"Pab's Packs is a non-profit organization created by two teenagers (Abbie and Pia) after they were hospitalized in their youth.",
+      "description": "A fun game where users make money by buying and selling items in an online marketplace.",
+      "clientDescription":"Omega Exchange is a fun commodities game where users are able to buy and sell items for profit in an online marketplace.",
       "cta": {
         "link": "https://omegaexchange.herokuapp.com/",
         "text": "View Game"
@@ -38,7 +38,7 @@
      "description": "A robust website for a fast casual fusion restaurant and social enterprise.",
      "clientDescription":"Afro Deli is a social venture that attempts to weave together business with community and culture. They are also a fast, friendly, and affordable place for anything from coffee and tea, to lunch, dinner, and dessert. ",
      "cta": {
-       "link": "http://www. afrodeli.com",
+       "link": "http://www.afrodeli.com",
        "text": "View Website"
      },
      "slug": "afrodeli",
@@ -57,14 +57,14 @@
     },
     {
       "className": "abdiwarsame",
-      "description": "An iOS game built using the Unity 3D game engine. A personal project to challenge and inspire oneself.",
+      "description": "A redesign of my original website for Council Member Warsame's historic run in 2013.",
       "clientDescription":"After making history in 2013 as the first Somali American Council Member, CM Warsame looked to revamp his original site to a new, modern look.",
       "cta": {
         "link": "http://www.votewarsame.com",
         "text": "View Website"
       },
       "slug": "abdiwarsame",
-      "title": "Abdi Warsame for Ward 6"
+      "title": "Warsame for Ward 6"
     }
   ]
 }

@@ -18,16 +18,20 @@ const AbdiWarsame = () => {
 
   const images = [
     {
-      src: require('./img/home.png'),
-      description: 'Mr. Red app home',
+      src: require('./img/abdi1.png'),
+      description: 'Abdi Warsame 1',
     },
     {
-      src: require('./img/in-game.png'),
-      description: 'Mr. Red app in game',
+      src: require('./img/abdi2.png'),
+      description: 'Abdi Warsame 2',
     },
     {
-      src: require('./img/end-screen.png'),
-      description: 'Mr. Red app end screen',
+      src: require('./img/abdi3.png'),
+      description: 'Abdi Warsame 3',
+    },
+    {
+      src: require('./img/abdi4.png'),
+      description: 'Abdi Warsame 4',
     },
   ];
 
@@ -54,13 +58,6 @@ const AbdiWarsame = () => {
   return (
   <ProjectPage project={project}>
     <ProjectIntro project={project} media={image} />
-    <ProjectDescription media={iphone}>
-      <h3>Project</h3>
-      <p>Nekima has been a client of <OutboundLink to="http://inlight.com.au">Inlight</OutboundLink> for quite some time. With numerous years of design and development, it was time to analyse the current solution to see what problems existed and how we could go about solving them for both business and customers. We worked closely with the Medibank team to re-build the current stack using the latest web technologies.</p>
-
-      <h3>Role</h3>
-      <p>With a team of 5 developers, we created a web app with client and server-side rendering using React. I was mainly responsible for building the current pages using reusable components and handling application state. Notable work includes building the product and product listing pages.</p>
-    </ProjectDescription>
     <Wrapper>
       <Macbook>
         <Carousel images={images} />

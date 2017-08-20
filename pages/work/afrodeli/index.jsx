@@ -12,23 +12,39 @@ import coverImage from 'components/project/img/afrodeli.png';
 
 const images = [
   {
-    src: require('./img/bsmg-afrodeli.png'),
-    description: 'Life with Bird collection listing',
+    src: require('./img/afro1.png'),
+    description: 'Afro Deli & Grill 1',
+  },
+  {
+    src: require('./img/afro2.png'),
+    description: 'Afro Deli & Grill',
+  },
+  {
+    src: require('./img/afro3.png'),
+    description: 'Afro Deli & Grill 2',
+  },
+  {
+    src: require('./img/afro4.png'),
+    description: 'Afro Deli & Grill 3',
+  },
+  {
+    src: require('./img/afro5.png'),
+    description: 'Afro Deli & Grill 4',
   },
 ];
 
 const mobileImages = [
   {
-    src: require('./img/mobile-product-listing.jpg'),
-    description: 'Life with Bird product listing mobile',
+    src: require('./img/afro1.png'),
+    description: 'Afro Deli & Grill 5',
   },
   {
-    src: require('./img/mobile-product.jpg'),
-    description: 'Life with Bird product mobile',
+    src: require('./img/afro2.png'),
+    description: 'Afro Deli & Grill 6',
   },
   {
-    src: require('./img/mobile-cart.jpg'),
-    description: 'Life with Bird cart mobile',
+    src: require('./img/afro3.png'),
+    description: 'Afro Deli & Grill 7',
   },
 ];
 
@@ -50,9 +66,9 @@ const AfroDeli = () => {
       <ProjectIntro project={project} media={image} />
 
       <Wrapper>
-        <Macbook>
-          <Carousel images={images} />
-        </Macbook>
+      <Macbook>
+        <Carousel images={images} />
+      </Macbook>
       </Wrapper>
     </ProjectPage>
   );

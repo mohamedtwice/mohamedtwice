@@ -8,6 +8,7 @@ import Wrapper from 'components/wrapper';
 import { Link } from 'react-router';
 
 import styles from './styles.module.css';
+import afroSrc from './img/afrodeli.png';
 
 const About = () => (
   <ContentPage>
@@ -26,11 +27,11 @@ const About = () => (
           <div>
             <h3>Skills</h3>
             <h4>Presentation</h4>
-            <p>Bootstrap, CSS, HTML, SASS</p>
+            <p>Bootstrap, CSS, CSS3, HTML, Sass/Less, CSS3</p>
             <h4>Javascript</h4>
-            <p>Angular,jQuery, React, Webpack</p>
+            <p>AngularJS, jQuery, React, Webpack</p>
             <h4>Server</h4>
-            <p>Express, Mongo, Node, SQL</p>
+            <p>Express, MongoDB, Node, PostgreSQL, SQL</p>
             <h4>Other</h4>
             <p>Photoshop, Wordpress NationBuilder</p>
           </div>
@@ -42,25 +43,13 @@ const About = () => (
         <h2>What people say</h2>
         <div className={styles.referrals}>
           <div className={styles.referral}>
+          <img src={afroSrc} alt="Afro Deli & Grill" />
             <div>
-              <h4>Patrick Carne, Lighthouse</h4>
-              <p>“Over the last 3 years Oliver has grown into a solid front-end developer, with an ability and eagerness to pick up new technologies quickly. I have no doubt Oliver will go on to be an exceptional developer in any area he chooses to focus.”</p>
+              <h4>Kahin Abdirahman, Owner of Afro Deli</h4>
+              <p>“Over the last 7 years, Mohamed has grown into an integral part of my team. He has consistently delivered and his . I would strongly recommend anyone to work with Mohamed.”</p>
             </div>
           </div>
 
-          <div className={styles.referral}>
-            <div>
-              <h4>Sina Karimi, Inlight</h4>
-              <p>“Oliver is an exceptional front end developer. He has grown rapidly over the past few years to be a valuable member of any development team. It has been a real pleasure to work with him over the years.”</p>
-            </div>
-          </div>
-
-          <div className={styles.referral}>
-            <div>
-              <h4>James Hanley, Ahm</h4>
-              <p>“I worked with Oliver on a number of projects for the Ahm websites. When a new brief would come in he was consultative and logical in his approach to help us define a solution to our business problem. His collaborative approach and comfort with clients/business makes him a great addition to a digital development team.”</p>
-            </div>
-          </div>
         </div>
       </section>
     </Wrapper>
