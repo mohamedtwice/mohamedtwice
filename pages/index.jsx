@@ -17,7 +17,7 @@ const Index = () => (
           <span class="styles.introhello">Hello. I’m Mohamed.</span>
           <br />
           <br />
-          I’m a freelance developer.
+          and I’m a full stack developer.
           <br />
           <br />
           <b>Check out my <Link className={styles.link} to={prefixLink('/work/')}>work</Link>.</b>
