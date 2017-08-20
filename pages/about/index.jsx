@@ -46,7 +46,7 @@ const About = () => (
           <img src={afroSrc} alt="Afro Deli & Grill" />
             <div>
               <h4>Kahin Abdirahman, Owner of Afro Deli</h4>
-              <p>“Over the last 7 years, Mohamed has grown into an integral part of my team. He has consistently delivered and his . I would strongly recommend anyone to work with Mohamed.”</p>
+              <p>“Over the last 7 years, Mohamed has grown into an integral part of my team and Afro Deli's success. He has consistently delivered, always there when needed, and has been assertive in implementing ideas. I would strongly recommend anyone to work with Mohamed.”</p>
             </div>
           </div>
 
