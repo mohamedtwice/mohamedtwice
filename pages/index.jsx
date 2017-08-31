@@ -14,11 +14,7 @@ const Index = () => (
     <Fullscreen className={styles.intro} firstItem>
       <Wrapper>
         <h1>
-          <span class="styles.introhello">Hello. I’m Mohamed.</span>
-          <br />
-          <br />
-          and I’m a full stack developer.
-          <br />
+          <span class="styles.introhello">Hello. I’m Mohamed and I’m a full stack developer.</span
           <br />
           <b>Check out my <Link className={styles.link} to={prefixLink('/work/')}>work</Link>.</b>
         </h1>
