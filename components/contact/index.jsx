@@ -10,7 +10,7 @@ const Contact = ({ title }) => (
     <h1>{title || 'I like messages'}</h1>
     <p className={styles.email}>If you have an upcoming project that you would like to talk about or are looking to collaborate and build something special, say hello and send an email.</p>
     <p className={styles.email}>
-      <b><a href="mailto:hello@mohamedtwice.com?subject=Hello%20Mohamed!" className={styles.link}>hello@mohamedtwice.com</a></b>
+      <b><a href="mailto:mohamedtwice@gmail.com?subject=Hello%20Mohamed!" className={styles.link}>mohamedtwice@gmail.com</a></b>
     </p>
     <div className={styles.lineBreak} />
     <ul className={styles.social}>

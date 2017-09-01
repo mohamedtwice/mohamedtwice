@@ -9,6 +9,7 @@ import { Link } from 'react-router';
 
 import styles from './styles.module.css';
 import afroSrc from './img/afrodeli.png';
+import primeSrc from './img/prime.png';
 
 const About = () => (
   <ContentPage>
@@ -21,7 +22,7 @@ const About = () => (
           <p>My interdisciplinary background includes experience serving as a soldier in the US Army; in various private sector positions; as an organizer for both community and political organizations; as a self-taught digital media artist; and as a leader in a government agency and non-profit organization, and has given me a unique perspective and skillset.</p>
 
 
-          <p>I currently work on a freelance basis working on both ideas of my own and others. If you have a project in mind, <Link to="/contact">get in touch</Link>.</p>
+          <p>I currently work on a freelance basis working on both ideas of my own and others. If you have a project in mind, <Link to={prefixLink('/contact/')}>get in touch</Link>.</p>
         </section>
         <aside className={styles.skills}>
           <div>
@@ -33,7 +34,7 @@ const About = () => (
             <h4>Server</h4>
             <p>Express, MongoDB, Node, PostgreSQL, SQL</p>
             <h4>Other</h4>
-            <p>Photoshop, Wordpress NationBuilder</p>
+            <p>Photoshop, Wordpress, NationBuilder</p>
           </div>
 
         </aside>
@@ -47,6 +48,14 @@ const About = () => (
             <div>
               <h4>Kahin Abdirahman, Owner of Afro Deli</h4>
               <p>“Over the last 7 years, Mohamed has grown into an integral part of my team and Afro Deli's success. He has consistently delivered, always there when needed, and has been assertive in implementing ideas. I would strongly recommend anyone to work with Mohamed.”</p>
+            </div>
+          </div>
+
+          <div className={styles.referral}>
+          <img src={primeSrc} alt="Prime Digital Academy" />
+            <div>
+              <h4>Carl Page, Former Team Member</h4>
+              <p>“Mohamed finished most of the backend to our project and built many aspects of our front-end. He stayed late consistently to get the project done, and was easy to work with. It was a pleasure to work with Mohamed and recommend him to any web development team.”</p>
             </div>
           </div>
 

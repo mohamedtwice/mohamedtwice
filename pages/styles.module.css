@@ -16,12 +16,12 @@
 }
 
 .intro h1 {
-    font-size: 2.75rem;
-    margin-left: 50%;
-    font-weight: 800;
-    color: #fff;
-        text-shadow: 5px 2px 0px #444;
-    }
+  font-size: 2.75rem;
+  margin-left: 50%;
+  font-weight: 800;
+  color: #fff;
+  text-shadow: 5px 2px 0px #444;
+}
 
 .introhello {
   background: #000;
@@ -36,7 +36,8 @@
   .intro h1 {
     font-size: 2.142rem;
     margin-left: 0%;
-}
+    margin-top: -200px;
+  }
   .link {
     border-width: 2px;
   }
