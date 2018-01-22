@@ -42,8 +42,8 @@
 
 .abdiwarsame .inner {
   background-image: url('../img/abdiwarsame.png');
-  background-position-x: 15%;
-  background-size: auto 50%;
+  background-position-x: 0%;
+  background-size: auto 70%;
 }
 
 .nekima {
@@ -53,8 +53,8 @@
 
 .nekima .inner {
   background-image: url('../img/nekima.png');
-  background-position-x: 80%;
-  background-size: auto 50%;
+  background-position-x: 90%;
+  background-size: auto 70%;
 }
 
 .afrodeli {
@@ -64,7 +64,7 @@
 
 .afrodeli .inner {
   background-image: url('../img/afrodeli.png');
-  background-position-x: 13%;
+  background-position-x: 10%;
   background-size: auto 95%;
   background-position-y: bottom;
 }
@@ -76,7 +76,7 @@
 
 .omegaexchange .inner {
   background-image: url('../img/omegaexchange.jpg');
-  background-position-x: 78.5%;
+  background-position-x: 88.5%;
 }
 
 .pabspacks {
@@ -86,7 +86,7 @@
 
 .pabspacks .inner {
   background-image: url('../img/pabspacks.jpg');
-  background-position-x: 78.5%;
+  background-position-x: 88.5%;
 }
 
 .caterapp {
@@ -96,9 +96,33 @@
 
 .caterapp .inner {
   background-image: url('../img/caterapp.jpg');
-  background-position-x: 13%;
+  background-position-x: 10%;
   background-size: auto 95%;
   background-position-y: bottom;
+}
+
+.voteconley {
+  composes: panel;
+  composes: voteconley from "../themes.module.css";
+}
+
+.voteconley .inner {
+  background-image: url('../img/voteconley.png');
+  background-position-x: -10%;
+  background-size: auto 75%;
+  background-position-y: center;
+}
+
+.omarfateh {
+  composes: panel;
+  composes: omarfateh from "../themes.module.css";
+}
+
+.omarfateh .inner {
+  background-image: url('../img/omarfateh.png');
+  background-position-x: 90%;
+  background-size: auto 75%;
+  background-position-y: center;
 }
 
 @media (--small) {

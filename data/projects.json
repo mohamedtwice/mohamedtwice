@@ -1,6 +1,28 @@
 {
   "projects": [
     {
+      "className": "omarfateh",
+      "description": "A complete campaign website built on the NationBuilder platform for a contested state house race.",
+      "clientDescription":"Omar Fateh is running a lean, inspiring campaign for a state house seat replacing a long-term incumbant.",
+      "cta": {
+        "link": "http://www.omarfateh.com/",
+        "text": "View Website"
+      },
+      "slug": "omarfateh",
+      "title": "Omar Fateh for Minnesota House 62A"
+     },
+     {
+      "className": "voteconley",
+      "description": "A complete campaign website built on the NationBuilder platform for a historic local county race.",
+      "clientDescription":"Angela Conley is a building a grassroots campaign to become the next Commissioner of the 4th District of Hennepin County.",
+      "cta": {
+        "link": "http://www.voteconley.com/",
+        "text": "View Website"
+      },
+      "slug": "voteconley",
+      "title": "Angela Conley for Hennepin County Commissioner"
+     },
+     {
      "className": "pabspacks",
      "description": "A full-stack application for Pab's Packs to easily track their inventory and keep track of events.",
      "clientDescription":"Pab's Packs is a non-profit organization created by two teenagers (Abbie and Pia) after they were hospitalized in their youth.",

@@ -41,3 +41,13 @@
   composes: caterapp from "../themes.module.css";
   composes: page;
 }
+
+.voteconley {
+  composes: voteconley from "../themes.module.css";
+  composes: page;
+}
+
+.omarfateh {
+  composes: omarfateh from "../themes.module.css";
+  composes: page;
+}
